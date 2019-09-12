@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Matt Lienhard's Portfolio</title>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+        <link href="css/portfolio.css" rel="stylesheet">
+        <link href="css/mobile.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id='overlay'>
+            <div id="loading">
+                <i class="fas fa-spinner fa-spin fa-fw"></i>
+            </div>
+        </div>
+        <div class='top-navbar'>
+            <div class='nav-wrapper'>
+                <div class='logo-abbreviated'><span>M</span><span class='fade-out'>att</span><span class='mover'> L</span><span class='mover fade-out'>ienhard</span></div>
+                <div class='nav-group'>
+                    <div class="button-container"><span class='my-btn nav-button' data-targetID="">Projects</span></div>
+                    <div class="button-container"><span class='my-btn nav-button' data-targetID="">Experience</span></div>
+                    <div class="button-container"><span class='my-btn nav-button' data-targetID="">About Me</span></div>
+                </div>
+                <div class='mobile nav-menu-icon'><i class="fas fa-bars"></i></div>
+            </div>
+            <div class='mobile-nav'>
+                <div class="button-container"><span class='my-btn mobile-button' data-targetID="">Projects</span></div>
+                <div class="button-container"><span class='my-btn mobile-button' data-targetID="">Experience</span></div>
+                <div class="button-container"><span class='my-btn mobile-button' data-targetID="">About Me</span></div>
+            </div>
+        </div>
+        
+        <div id='sidebar'>
+            <div class='sidebar-container' style="position: relative;">
+                <span class='sidebar-close'><a class='sidebar-fixed'>x</a></span>
+                <div class='sidebar-page' data-id="0">
+                    <h2 class='content-mainheader'>Bumper Carnival</h2>
+                    <div class='line-break margin-bottom'></div>
+                    <h3 class='content-subheader'>About</h3>
+                    <div class='sidebar-content'>
+                        <p>Bumper Carnival is a zany and action-packed bumper car brawler for all ages. Players will choose their loadout by selecting weapons 
+                            and vehicle classes to pit their car against their friend or AI. The last one remaining wins! Choose from a variety of different maps all with their unique features and challenges.</p>
+                    </div>
+                    <h3 class='content-subheader'>Features</h3>
+                    <ul>
+                        <li>Car customization including color, weight class, and 4 different weapons</li>
+                        <li>4 Unique Stages</li>
+                        <li>Local Multiplayer</li>
+                        <li>AI bots to practice against</li>
+                        <li>Controller Support</li>
+                    </ul>
+                    <h3 class='content-subheader'>Development</h3>
+                    <div class='sidebar-content'>
+                        <p>This game was developed using Unity and C# by a team of 5 including myself. The project intially started as a class project but was then expanded upon in a production studio ultimately leading to around 5 months of total development time. The game was then presented at the <em>Imagine RIT</em> festival at Rochester Institute of Technology. This was by far the most fleshed out game any of us had ever made due to the amount of time and resources we were able to sink into it. The team dynamic was great due to the fact that all of us were friends, leading to a lot of shared roles and helping out in all areas of development.<br /><br />
+                        
+                        There is still plenty of room for future development with this game, including enhanced physics to allow for stages to include slopes and ramps, better collision detection and resolution for more satisfying hits, more loadouts, more cars, more characters, more stages, different gamemodes, etc. As the main lead behind physics, I still have work cut out for me to perfect our physics system to produce the most satsfying experience. We've gotten the game to a great point, but there's a ton more to do. I am still most proud of this project out of all of my work.</p>
+                    </div>
+                    <h3 class='content-subheader'>My Contributions</h3>
+                    <ul>
+                        <li>Physics Programming</li>
+                        <li>3D Modeling</li>
+                        <li>Texture Production</li>
+                        <li>Custom Shaders</li>
+                        <li>Stage Design and Programming</li>
+                        <li>Gameplay Programming</li>
+                    </ul>
+<!--                    <h3 class='content-subheader'>Photo Gallery</h3>-->
+                </div>
+                <div class='sidebar-page' data-id="1">
+                    <h2 class='content-mainheader'>Line Drive</h2>
+                    <div class='line-break margin-bottom'></div>
+                    <h3 class='content-subheader'>About</h3>
+                    <div class='sidebar-content'>
+                        <p>Line Drive is a golfing puzzle game designed for mobile. Players must use their finger to draw lines to guide the ball to the hole. Use your toolbox of drawing abilities and speed boosts wisely to rack up the best score. With over 20 levels and multiple customization options, there's plenty to keep you busy when you want a quick game break on the go.</p>
+                    </div>
+                    <h3 class='content-subheader'>Features</h3>
+                    <ul>
+                        <li>20+ Levels</li>
+                        <li>Customization options</li>
+                        <li>Android and iOS support</li>
+                        <li>Rigidbody physics</li>
+                    </ul>
+                    <h3 class='content-subheader'>Development</h3>
+                    <div class='sidebar-content'>
+                        <p>This game was developed using Unity and C# by a team of 4 including myself. It began during a class I took at RIT named Casual Game Development. The structure of the class was set up into three 4 week sprints where we design a casual game during each of the sprints. We also received two weeks at the end of the semester to polish one of our three games, and we chose this one.<br/><br/>
+                        
+                        We used Unity's physics system which definitely sped up production. Just after 1 week, line drawing with proper collision was implemented as well as speed boosts and holes. After the first week, we could focus our attention on cleaning up the UI and implementing more holes as well as customization. Playtests in class allowed us to tweak physic values, adjust the UX, and gain new ideas for level mechanics. Production went pretty smoothly and we were all really happy with how the game turned out. This game was my brainchild so I was real excited to develop it.</p>
+                    </div>
+                    <h3 class='content-subheader'>My Contributions</h3>
+                    <ul>
+                        <li>Physics Programming</li>
+                        <li>UI Design</li>
+                        <li>UI Functionality</li>
+                        <li>Level Design</li>
+                        <li>Scoring System</li>
+                        <li>Gameplay Programming</li>
+                    </ul>
+<!--                    <h3 class='content-subheader'>Photo Gallery</h3>-->
+                </div>
+                <div class='sidebar-page' data-id="2">
+                    <h2 class='content-mainheader'>Skyrim Mod</h2>
+                    <div class='line-break margin-bottom'></div>
+                    <h3 class='content-subheader'>About</h3>
+                    <div class='sidebar-content'>
+                        <p>A band of hunters has gone missing on an island to the east, driven away from their camp during the night by an unknown foe. Uncover the fates of the hunters, slay the stalker on the island, and collect a unique armor set made with some of the finest hides in the land. May Hircine watch over you, Dragonborn.</p>
+                    </div>
+                    <h3 class='content-subheader'>Features</h3>
+                    <ul>
+                        <li>4 Unique Subquests</li>
+                        <li>New Armor Set</li>
+                        <li>Custom Assets and Dialogue</li>
+                        <li>New Worlds to Explore</li>
+                    </ul>
+                    <h3 class='content-subheader'>Development</h3>
+                    <div class='sidebar-content'>
+                        <p>This mod was developed during a special running of IGME 590 at RIT. The class was solely devoted to making a mod for <em>The Elder Scrolls V: Skyrim</em>. The class was divided into 5 groups of 5 and each of our teams worked on a specific subquest in the mod, with one group managing the overarching quest. My team was responsible for the fourth and final subquest: "Stuck Between a Wererock and a Hard Place". It was a very unique class as it required communication and cooperation with all 25 students, rather than just your own group. Everyone was fairly new to modding so it was a class effort to learn and share knowledge of the Skyrim Creation Kit together.<br/><br/>
+                        
+                            In my team, I was mostly responsible for asset modifications. My main work consisted of retexturing the armor set to create our own unique look as well as creating stone variants of Skyrim's werewolves and werebears and creating the bloodmoon transition effect. Working with Bethesda's assets was certainly a challange, as all of their filetypes are proprietary. Texture files are coded as <code>.dds</code> and 3D models are packaged as <code>.nif</code>. This required special tools to be able to modify the existing assets.</p>
+                    </div>
+                    <h3 class='content-subheader'>My Contributions</h3>
+                    <ul>
+                        <li>Armor Retexture</li>
+                        <li>Werewolf and Werebear Statues and FX</li>
+                        <li>Bloodmoon FX</li>
+                        <li>Papyrus Scripting</li>
+                        <li>Some Level Design</li>
+                    </ul>
+                    <h3 class='content-subheader'>Photo Gallery</h3>
+                    <img class='sidebar-img' src='images/Bloodmoon.png'/>
+                    <p class='img-caption'>View of the Bloodmoon rising above the grotto in our quest</p>
+                    <img class='sidebar-img' style='max-height: 600px;' src='images/ArmorScreenshot.jpg'/>
+                    <p class='img-caption'>The retextured armor cuirass I made for the mod</p>
+                    <img class='sidebar-img' src='images/Statues.png'/>
+                    <p class='img-caption'>The two werewolf statues and one werebear statue shatter into live enemies during the final wave of fighting</p>
+                    <img class='sidebar-img' src='images/GrottoTrees.png'/>
+                    <p class='img-caption'>Our quest takes place in an enclosed grotto that plays like an arena</p>
+                </div>
+                <div class='sidebar-page' data-id="3">
+                    <h2 class='content-mainheader'>Snowboarding Simulator</h2>
+                    <div class='line-break margin-bottom'></div>
+                    <h3 class='content-subheader'>About</h3>
+                    <div class='sidebar-content'>
+                        <p>Feel the rush of snowboarding in this simulation style game! Step onto the physical board to lean and turn your way down the mountain through a giant slalom course. The Nintendo Wii remote attached to the simulated board will track your movements and translate those to in game movements. Try to get down the course as fast as possible to score the best time!</p>
+                    </div>
+                    <h3 class='content-subheader'>Features</h3>
+                    <ul>
+                        <li>Physcial platform controller that allows you to spin 360 degrees and lean side to side to simulate the real movements of snowboarding</li>
+                        <li>Movements captured by on-board Nintendo Wii remote</li>
+                        <li>Race down a slope and pass through gates in a slalom course</li>
+                        <li>Score calculated by total time and gates passed</li>
+                    </ul>
+                    <h3 class='content-subheader'>Development</h3>
+                    <div class='sidebar-content'>
+                        <p>This proof-of-concept project was a result of a solo independent studio during the spring of 2017. The game was developed in Unity using C# and a Nintendo Wii remote as a controller. I used the Unity-Wiimote plug-in to get input from the Wii remote into the Unity engine. The platform consisted of a longboard with a Wiimote attached to the bottom and the longboard was positioned on a turn table. This allowed for both the rotational and leaning movements.<br /><br />
+                        In all, the project was a good learning experience into using motion controls. The Nintendo Wii remote was not the best accelerometer to use for motion controls, as it would very consistently get disoriented and constantly require zeroing out. The physical platform itself was very jerry rigged and not very user friendly. The physics were decent but the controls where really what messed with the gameplay. There is a lot of room for improvement but it was a successful proof-of-concept using a Wiimote in Unity and experimenting with physical controllers.</p>
+                    </div>
+                    <h3 class='content-subheader'>Photo Gallery</h3>
+                    <img class='sidebar-img' src='images/SnoSim.png'/>
+                    <p class='img-caption'>Start at the top of the mountain and race your way down!</p>
+                    <img class='sidebar-img' src='images/SnoSim3.png'/>
+                    <p class='img-caption'>The next gate will have a red smoke plume to help you identify where to go. There's also a jump towards the end of the course!</p>
+                    <img class='sidebar-img' src='images/SnoSim4.png'/>
+                    <p class='img-caption'>When you cross the finish line, your total score is the time you took with an added penalty of +1 second for each gate you missed</p>
+                </div>
+                
+                <div class='sidebar-page' data-id="4">
+                    <h2 class='content-mainheader'>Audio Visualizer</h2>
+                    <div class='line-break margin-bottom'></div>
+                    <div class='link-container'><a class='link-btn' target="_blank" href="https://people.rit.edu/mcl1601/IGME-330/Projects/Audio-Visualizer/Lienhard_AudioVisualizer.html">Link to Page</a></div>
+                    <h3 class='content-subheader margin-top'>About</h3>
+                    <div class='sidebar-content'>
+                        <p>This web app allows you to play music and visualize the beats and waveforms of the sound. You have full control over the visuals including what type of display you want, colors, visual effects, and audio effects. Feel the bass with an option to turn on a screen shaking bass effect. Customize the experience to your liking to fully embrace the music!</p>
+                    </div>
+                    <h3 class='content-subheader'>Features</h3>
+                    <ul>
+                        <li>8 Songs to choose from with custom audio controls</li>
+                        <li>Screen shaking bass option</li>
+                        <li>Particle effects for aesthetic</li>
+                        <li>Controls for audio effects</li>
+                        <li>Adjust background colors</li>
+                        <li>Option to enable fullscreen mode</li>
+                        <li>Main waveform pattern displayed as mirrored bars around a circle</li>
+                        <li>Option to enable a line waveform</li>
+                    </ul>
+                    <h3 class='content-subheader'>Development</h3>
+                    <div class='sidebar-content'>
+                        <p>I had way too much fun with this project. As a big fan of music, I love watching videos of my favorite songs that incorporate the song's waveforms. I really wanted to go above and beyond and make a really cool experience with this. Built using JavaScript and web audio technologies, each "frame" of the song is divided into "buckets" based on sound frequencies. Each of these bucket values is then translated into how big each bar appears. The plethora of customization controls alter things like how tall or wide the bars should be, audio effects like reverb, and visual effects such as tinting the background.<br/><br/>
+                        
+                        I really wanted to make the UI look clean and modern. This was actually my first true website built with JavaScript so there are plenty of things I would like to go back and change in terms of the UI. A lot of the UI interaction is kind of hacky and not done effectively. After learning more about JS and web development, I am eager to go back and modernize some of my code. There's a few glitches with the custom audio controls but overall I was incredibly pleased with the final product. It was highly satisfying to sit and watch and listen to my work perform in front of me.</p>
+                    </div>
+                    <h3 class='content-subheader'>Photo Gallery</h3>
+                    <img class='sidebar-img' src='images/AudioViz.png'/>
+                    <p class='img-caption'>The bars around the middle are mirrored on both sides and represent the frequencies of the song. The purple line is another view of the frequencies</p>
+                    <img class='sidebar-img' src='images/AV1.png'/>
+                    <p class='img-caption'>Some of the controls you can play with</p>
+                    <img class='sidebar-img' src='images/AV2.png'/>
+                    <p class='img-caption'>The custom audio player interface</p>
+                </div>
+                <div class='sidebar-page' data-id="5">
+                    <h2 class='content-mainheader'>Tanks</h2>
+                    <div class='line-break margin-bottom'></div>
+                    <div class='link-container'><a class='link-btn' target="_blank" href="https://people.rit.edu/mcl1601/IGME-330/Projects/Tanks/tanks.html">Link to Page</a></div>
+                    <h3 class='content-subheader margin-top'>About</h3>
+                    <div class='sidebar-content'>
+                        <p>Battle your friends in a 1 vs. 1 game of Tanks! Move your tank back and forth and select the right angle and shot power to counteract the wind and hit your opponent. First player to land 3 shots is the winner!</p>
+                    </div>
+                    <h3 class='content-subheader'>Features</h3>
+                    <ul>
+                        <li>Local Versus Multiplayer Gameplay</li>
+                        <li>Each player can name themselves and choose a tank color</li>
+                        <li>Random Stage Generation</li>
+                        <li>Animations and Particle Effects</li>
+                        <li>Background Music and Sound Effects</li>
+                        <li>All made through Canvas</li>
+                    </ul>
+                    <h3 class='content-subheader'>Development</h3>
+                    <div class='sidebar-content'>
+                        <p>This project was to practice using Canvas while also making a game. I choose a 2D tank game since the graphics are relatively simple and physics are my speciality. I was most happy with how clean and concise the code for the game is. I used the Module Pattern to help clean up the code and break the calls down into chunks. The main update basically comes down to update the tanks, update the bullet, and check for collisions.<br /> <br />
+                        
+                        I initially aimed to do terrain deformation when the bullets hit the ground, but soon realized this drastically complicated     many other aspects of the game. Instead, I created a random terrain generaton algorithm that creates a new stage for each playthrough. It took some tweaking and playing around to constrain the values to make a balanced and playable stages. Overall I'm fairly happy with the gameplay, however the site design could use some work. Creating UIs in Canvas was a little tricky.</p>
+                    </div>
+<!--                    <h3 class='content-subheader'>Photo Gallery</h3>-->
+                </div>
+                <div class='sidebar-page' data-id="6">
+                    <h2 class='content-mainheader'>MoodFood</h2>
+                    <div class='line-break margin-bottom'></div>
+                    <div class='link-container'><a class='link-btn' target="_blank" href="https://people.rit.edu/mcl1601/IGME-330/Projects/MoodFood/MoodFood.html">Link to Page</a></div>
+                    <h3 class='content-subheader margin-top'>About</h3>
+                    <div class='sidebar-content'>
+                        <p>In the mood for a specific type of food? MoodFood will help you locate places nearby to fulfill your cravings! Search by your current location, or enter a custom location to find food. Sort and compare places by pricing or rating.</p>
+                    </div>
+                    <h3 class='content-subheader'>Features</h3>
+                    <ul>
+                        <li>Utilizes the Google Maps and Zomato APIs</li>
+                        <li>Utilizes Location Services</li>
+                        <li>Sort by Rating or Price</li>
+                        <li>Google Material Design</li>
+                        <li>View Results in a list view or on the map</li>
+                    </ul>
+                    <h3 class='content-subheader'>Development</h3>
+                    <div class='sidebar-content'>
+                        <p>My initial plans for this app unfortunately did not come to fruition. I initially intended to make an app to search the menus of restaurants to locate specific foods you were looking for. I found the <a href="https://developers.zomato.com/api" target="_blank">Zomato API</a> and was under the impression it had the power to cross-reference menus. However, it turns out that feature was only avaiable in Czechoslovakia. So I had to salvage together the rest of the project and it will only show results that include your query in the title of the restaurant. In essence, I basically created another Google Maps to find restaurants. <br/><br/>
+                        
+                        Out of all my apps, I am least happy with this one. Mostly because the idea didn't fully work out, but also because the site design isn't the best. After scrambling to salvage the project, I didn't have a whole lot of time or care to clean up the design. While I do like some of the Google Material designs I created like the text boxes, the responsiveness of the site is pretty bad. Layouts and font sizing need to be adjusted and the color scheme is a little harsh.</p>
+                    </div>
+<!--                    <h3 class='content-subheader'>Photo Gallery</h3>-->
+                </div>
+            </div>
+        </div>
+        
+        <div class='parallax parallax1'>
+            <h2 class="hero-text fade-in">Hello</h2>
+        </div>
+        
+        <div class='drop-shadow' style='height: 25vh; background-color: rgb(50,50,50); color: rgb(223, 223, 214);position: relative;z-index: 10;'>
+            <div class='col-sm-6 tagline-col fade-in'>
+                <h2 class='center-text'>Game Designer</h2>
+                <div class='absolute-line-v line-hide'></div>
+                <div class='absolute-line-h line-show'></div>
+            </div>
+            <div class='col-sm-6 tagline-col fade-in'>
+                <h2 class='center-text'>Web Developer</h2>
+            </div>
+        </div>
+        
+        <div class='parallax parallax2'>
+            <h2 class="hero-text fade-in section-header" data-id="">Projects</h2>
+        </div>
+        <div class="content-block drop-shadow">
+            <div class='row content-row' style='margin-bottom: 30px;'>
+                <h2 class='content-header fade-in'>Games</h2>
+                <div class='line-break'></div>
+                <div class='col-sm-6 margin-bottom'>
+                    <div class='content-card fade-in' data-id='0'>
+                        <h2 class='card-head'>Bumper Carnival</h2>
+                        <img class='project-thumb' src='images/BumperCarnival.png' />
+                    </div>
+                </div>
+                <div class='col-sm-6 margin-bottom'>
+                    <div class='content-card fade-in' data-id='1'>
+                        <h2 class='card-head'>Line Drive</h2>
+                        <img class='project-thumb' src='images/LineDrive-Menu.jpg' />
+                    </div>
+                </div>
+                <div class='col-sm-6 margin-bottom'>
+                    <div class='content-card fade-in' data-id='2'>
+                        <h2 class='card-head'>Skyrim Mod</h2>
+                        <img class='project-thumb' src='images/SkyrimCover.png' />
+                    </div>
+                </div>
+                <div class='col-sm-6 margin-bottom'>
+                    <div class='content-card fade-in' data-id='3'>
+                        <h2 class='card-head'>Snowboarding Simulator</h2>
+                        <img class='project-thumb' src='images/SnoSim.png' />
+                    </div>
+                </div>
+            </div>
+            <div class='row content-row'>
+                <h2 class='content-header fade-in'>Web Apps</h2>
+                <div class='line-break'></div>
+                <div class='col-sm-4 margin-bottom'>
+                    <div class='content-card fade-in' data-id='4'>
+                        <h2 class='card-head'>Audio Visualizer</h2>
+                        <img class='project-thumb' src='images/AudioViz.png' />
+                    </div>
+                </div>
+                <div class='col-sm-4 margin-bottom'>
+                    <div class='content-card fade-in' data-id='5'>
+                        <h2 class='card-head'>Tanks</h2>
+                        <img class='project-thumb' src='images/Tanks.png' />
+                    </div>
+                </div>
+                <div class='col-sm-4 margin-bottom'>
+                    <div class='content-card fade-in' data-id='6'>
+                        <h2 class='card-head'>MoodFood</h2>
+                        <img class='project-thumb' src='images/MoodFood.png' />
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class='parallax parallax3'>
+            <h2 class="hero-text fade-in section-header" data-id="">Experience</h2>
+        </div>
+        <div class="content-block drop-shadow">
+            <div class='row'>
+                <div class='col-sm-6 fade-in' style='padding-bottom: 50px;'>
+                    <div class='row'>
+                        <div class='col-sm-12'>
+                            <div style="height: 100px; width: 100%;">
+                                <a class='work-logo' href="https://www.livetiles.nyc/" target="_blank"><img src="images/LiveTiles-Logo.png" /></a>
+                            </div>
+                            <h3 class='job-title'>Web Developer Intern</h3>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-sm-6'>
+                            <h3 class='job-loc'><i class="fas fa-map-marker-alt inline-icon"></i>Rochester, NY</h3>
+                        </div>
+                        <div class='col-sm-6'>
+                            <h3 class='job-loc'><i class="far fa-calendar-alt inline-icon"></i>June 2018 - December 2018</h3>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-sm-12 job-desc'>
+                            <p>
+                                &emsp;One major part of the LiveTiles brand is their intranet site building platform. The individual apps and widgets you add to the site page are known as "tiles". As a developer intern, my main task included refreshing outdated and non-functional tiles to a more modern standard. Often times I would rebuild the tiles from the ground up and design the front end as well program the backend myself. I was also involved with creating demo pages for potential customers, providing support to customers who implemented my tiles, as well as create custom tiles for different customers.
+                            <p>
+                        </div>
+                    </div>
+
+                    <div class='col-sm-12'>
+                        <h2 class='job-title' style='font-size: 22px;'>Skills Utilized</h2>
+                        <ul class='job-skills job-desc margin-bottom'>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>AJAX</li>
+                            <li>Bootstrap</li>
+                            <li>Microsoft Sharepoint</li>
+                            <li>Microsoft Azure Bot Framework</li>
+                            <li>Microsoft Flow</li>
+                            <li>Various API Integrations</li>
+                            <li>Customer Interaction</li>
+                        </ul>
+                    </div>
+                    <div class='absolute-line-v line-hide' style="background-color: rgb(50,50,50); height: 90%"></div>
+                    <div class='absolute-line-h line-show' style="background-color: rgb(50,50,50); width: 90%"></div>
+                </div>
+                <div class='col-sm-6 fade-in' style='padding-bottom: 50px;'>
+                    <div class='row'>
+                        <div class='col-sm-12'>
+                            <div style="height: 100px; width: 100%;">
+                                <a class='work-logo' href="https://new.siemens.com/global/en/company/innovation/corporate-technology.html" target="_blank"><img src="images/siemens-logo.png" /></a>
+                            </div>
+                            <h3 class='job-title'>Front End Developer Intern</h3>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-sm-6'>
+                            <h3 class='job-loc'><i class="fas fa-map-marker-alt inline-icon"></i>Princeton, NJ</h3>
+                        </div>
+                        <div class='col-sm-6'>
+                            <h3 class='job-loc'><i class="far fa-calendar-alt inline-icon"></i>June 2017 - August 2017</h3>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-sm-12 job-desc'>
+                            <p>
+                                &emsp;My primary task at Siemens was to prototype a new application to be used by railroad technicians. The app, an "IDE for programming signal box logic", was created as a WPF Application using C# in Visual Studio. As the sole programmer, I would work with a UX lead and UI designer to turn the concepts into reality. The design was insipred by the Microsoft Office suite and built to be a more modern UI over cluttered industrial style UIs. My team worked with a user group of real technicians to gain feedback and suggestions as we built out the program. 
+                            <p>
+                        </div>
+                    </div>
+
+                    <div class='col-sm-12'>
+                        <h2 class='job-title' style='font-size: 22px;'>Skills Utilized</h2>
+                        <ul class='job-skills job-desc margin-bottom'>
+                            <li>C#</li>
+                            <li>XAML</li>
+                            <li>WPF Applications</li>
+                            <li>Microsoft Visual Studio</li>
+                            <li>User Group Interaction</li>
+                            <li>Collaboration with Designers</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class='parallax parallax4'>
+            <h2 class="hero-text fade-in section-header" data-id="">About</h2>
+        </div>
+        <div class="content-block drop-shadow" style='min-height: 30vh;'>
+            <div class="row">
+                <div class="col-sm-6 fade-in" id='bio-tab'>
+                    <div class='bio-content'>
+                        <img id='profilePic' src="images/profilePic.JPG" alt="Matt Lienhard" />
+
+                        <h3 id='tagline'>Hey, I'm Matt.</h3>
+
+                        <p id='bio'>
+                            I'm a game designer and web developer finshing my last semester at RIT. I'm most proficient at C# and I also have two years experience with C++ and JavaScript. I'm currently looking for full-time employment
+                            for 2020.
+                            <br />
+                            <br />
+                            Outside of projects, I'm a captain on the RIT Track &amp; Field team, teaching assistant for IGME 202 - Interactive Media Development at RIT, and I also enjoy skateboarding, snowboarding, and hiking. I also like playing
+                            some video games when I have time.
+                        </p>
+                    </div>
+                    <div class='absolute-line-v line-hide' style="background-color: rgb(50,50,50); height: 90%"></div>
+                </div>
+                <div class="col-sm-6 fade-in" id='skill-tab'>
+                    <div>
+                        <h2 class='skillHeader'>Education</h2>
+                        <p class='school' id='major' style='margin-top: 30px; font-weight:400;'>Game Design &amp; Development B.S.</p>
+                        <p class='school' style='margin-bottom: 30px;'>Rochester Institute of Technology</p>
+                        <h2 class='skillHeader'>Programming</h2>
+                        <div class='skillList'>
+                            <p>C#</p>
+                            <p>C++</p>
+                            <p>JavaScript</p>
+                            <p>Swift</p>
+                            <p>HTML5 / CSS3</p>
+                        </div>
+                        <h2 class='skillHeader'>Software</h2>
+                        <div class='skillList'>
+                            <p>Unity</p>
+                            <p>Visual Studio</p>
+                            <p>XCode</p>
+                            <p>Photoshop</p>
+                            <p>Illustrator</p>
+                            <p>InDesign</p>
+                            <p>Maya</p>
+                            <p>Microsoft Sharepoint</p>
+                        </div>
+                        <h2 class='skillHeader'>Other Technologies</h2>
+                        <div class='skillList'>
+                            <p>jQuery</p>
+                            <p>Bootstrap</p>
+                            <p>React</p>
+                            <p>Node.js</p>
+                            <p>REST</p>
+                            <p>OpenGL</p>
+                            <p>DirectX</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class='to-top offscreen'><i class="fas fa-arrow-up"></i></div>
+        <div style="height: 15vh;"></div>
+        <div class='footer'>
+<!--            <h2 class="content-header" style="color: white">Note: This page is a work in progress.</h2>-->
+            <div id='link-container'>
+                <a class='link-button' href='https://www.linkedin.com/in/matt-lienhard-449634105' target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a class='link-button' href='https://github.com/mcl1601' target="_blank"><i class="fab fa-github"></i></a>
+                <a class='link-button' href='mailto:mcl1601@g.rit.edu'><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="portfolio.js"></script>
+    </body>
+</html>

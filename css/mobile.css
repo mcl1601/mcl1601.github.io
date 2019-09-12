@@ -1,0 +1,51 @@
+@media (max-width: 820px){
+    .nav-group{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .mobile-hide{
+        display: none;
+    }
+    #sidebar{
+        width: 100%;
+    }
+    .content-mainheader{
+        margin-top: 50px;
+    }
+    .sidebar-close{
+        top: -70px;
+    }
+}
+
+.line-show{
+    display: none;
+}
+@media screen and (max-width: 768px){
+    .line-hide{
+        display: none;
+    }
+    .line-show{
+        display: block;
+    }
+    .tagline-col{
+        height: 12.5vh;
+    }
+}
+@media screen and (max-width: 550px){
+    .sidebar-content{
+        padding: 10px 45px;
+    }
+}
+@media screen and (max-width: 407px){
+    .button-container{
+        margin: 0px;
+    }
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+    .parallax2, .parallax{
+        background-attachment: scroll;
+    }
+}
