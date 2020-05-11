@@ -436,8 +436,13 @@ body{
     font-family: 'Lato';
     font-weight: 300;
     color: #333;
-    text-align: center;
     font-size: 22px;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
 }
 .job-desc{
     font-family: 'Lato';
