@@ -397,12 +397,13 @@ body{
     margin-bottom: 15px;
     transition: 400ms;
 }
+.link-btn:visited{
+    color: rgb(230,230,214);
+}
 .link-btn:hover{
     color: #555;
     background-color: transparent;
-}
-.link-btn:visited{
-    color: rgb(230,230,214);
+    text-decoration: none;
 }
 .link-container{
     text-align: center;
