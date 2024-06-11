@@ -425,6 +425,32 @@
                     <img class='sidebar-img' src='images/HallwayRGB.png'/>
                     <p class='img-caption'>The light wall has a shader that when viewed up close shows "pixels". Credit to <a href="https://github.com/MochiesCode/Mochies-Unity-Shaders/releases" target="_blank">Mochie's Shaders</a> for the effect</p>
                 </div>
+                <div class='sidebar-page' data-id="13">
+                    <h2 class='content-mainheader'>Lightmap Swapper</h2>
+                    <div class='line-break margin-bottom'></div>
+                    <div class='link-container'><a class='link-btn' target="_blank" href="https://github.com/SquatchVRC/LightmapSwapper">View on GitHub</a></div>
+                    <h3 class='content-subheader' style="margin-top: 45px;">About</h3>
+                    <div class='sidebar-content'>
+                        <p>My first publicly released asset for VRChat world creation: Lightmap Swapper! This package allows for swapping of baked lightmaps and reflection probes at runtime. I also included a light switch prefab that includes sounds, animations, and logic to allow
+                            for desktop interaction as well as VR touch controls with haptics. 
+                        </p>
+                    </div>
+                    <h3 class='content-subheader'>Development</h3>
+                    <div class='sidebar-content'>
+                        <p>When developing my work-in-progress world, I really wanted to have multiple lighting scenarios but didn't want the perfomance hit of real-time lighting. I did some research and couldn't find any free packages that allow for swapping of lightmaps. So I 
+                            decided to make my own! The scripts are specifically designed for VRChat worlds so they are writted in UdonSharp. However, the scripts could be easily modified to work with regular Unity development. 
+                        </p>
+                        <p>
+                            The script get a reference to every static object in the scene that uses a lightmap as well as any reflection probe. When a swap should occur, it loops through all the referenced objects, changes the lightmap to next one, and re-bakes all reflection 
+                            probes to the new lighting scenario. 
+                        </p>
+                    </div>
+                    <div class="sidebar-content">
+                        <div style="display: flex; flex-direction: column; align-items: center;">
+                            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7206391969265135616?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         
@@ -482,13 +508,19 @@
             <div class='row content-row' style='margin-bottom: 30px;'>
                 <h2 class='content-header fade-in'>VR Projects</h2>
                 <div class='line-break'></div>
-                <div class='col-sm-6 margin-bottom'>
+                <div class='col-sm-4 margin-bottom'>
+                    <div class='content-card fade-in' data-id='13'>
+                        <h2 class='card-head'>Lightmap Swapper</h2>
+                        <img class='project-thumb' src='images/LightmapSwapper.png' />
+                    </div>
+                </div>
+                <div class='col-sm-4 margin-bottom'>
                     <div class='content-card fade-in' data-id='12'>
                         <h2 class='card-head'>Bunker Hallway</h2>
                         <img class='project-thumb' src='images/title.png' />
                     </div>
                 </div>
-                <div class='col-sm-6 margin-bottom'>
+                <div class='col-sm-4 margin-bottom'>
                     <div class='content-card fade-in' data-id='11'>
                         <h2 class='card-head'>Basketball Arcade</h2>
                         <img class='project-thumb' src='images/Arcade.png' />
