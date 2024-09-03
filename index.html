@@ -451,6 +451,47 @@
                         </div>
                     </div>
                 </div>
+                <div class='sidebar-page' data-id="14">
+                    <h2 class='content-mainheader'>Cozy Obby</h2>
+                    <div class='line-break margin-bottom'></div>
+                    <div class='link-container'><a class='link-btn' target="_blank" href="https://vrchat.com/home/world/wrld_0ce6ceb3-a2e8-49af-ad43-bb26996b37cc">View on VRChat</a></div>
+                    <h3 class='content-subheader' style="margin-top: 45px;">About</h3>
+                    <div class='sidebar-content'>
+                        <p>
+                            My biggest VRChat project yet, Cozy Obby is a game world featuring multiple obstacle courses with leaderboards and speedrunning features as well as a central hangout area. The world received 
+                            great reception reaching 20,000+ visits and 2,500+ favorites in just 3 days, even reaching the top of the "New and Noteworthy" category and breaking into the "Popular" tab.  
+                        </p>
+                    </div>
+                    <h3 class='content-subheader'>Development</h3>
+                    <div class='sidebar-content'>
+                        <p>
+                            This world took about 4 months of development time. The first focus was on making a robust obstacle course system that was prefabable and expandable. A manager script handles most of the heavy lifting: 
+                            holding the timer, checkpoint counter, calculating time splits between checkpoints, respawns, and leaderboard logic. Individual components like bounce pads, lava blocks, and glide walls handle collision detection on their own and call 
+                            to the manager. The scripts were written using UdonSharp, VRChat's version of C#.
+                        </p>
+                        <p>
+                            After the Easy difficulty course was made I shifted my focus to building the central hangout hub. The house structure and props were all made in Blender then textured in Unity. The hub features 4 areas: 
+                            a fire pit lounge, a large couch with TV video player and queue system, billiards table with custom leaderboard, and a cozy bedroom. The billiards leaderboard was built from the parkour courses' leaderboard but 
+                            enhanced for better architecture. All leaderboars are synced over the network and include crowns above the heads of the players at the top of each respective leaderboard.
+                        </p>
+                    </div>
+                    <h3 class='content-subheader'>Photo Gallery</h3>
+                    <img class='sidebar-img' src='images/CozyObby1.png'/>
+                    <p class='img-caption'>The entrance view to the world</p>
+                    <img class='sidebar-img' src='images/CozyObby2.png'/>
+                    <p class='img-caption'>View from the corner of the fire pit area</p>
+                    <img class='sidebar-img' src='images/CozyObby3.png'/>
+                    <p class='img-caption'>The pool table with leaderboard in the back</p>
+                    <img class='sidebar-img' src='images/CozyObby4.png'/>
+                    <p class='img-caption'>Bedroom area</p>
+                    <img class='sidebar-img' src='images/CozyObby5.png'/>
+                    <p class='img-caption'>View from the start of the medium difficulty course</p>
+                    <img class='sidebar-img' src='images/CozyObby6.png'/>
+                    <p class='img-caption'>Aerial view of the easy difficulty course</p>
+                    <div class="sidebar-content">
+                        
+                    </div>
+                </div>
             </div>
         </div>
         
@@ -508,19 +549,25 @@
             <div class='row content-row' style='margin-bottom: 30px;'>
                 <h2 class='content-header fade-in'>VR Projects</h2>
                 <div class='line-break'></div>
-                <div class='col-sm-4 margin-bottom'>
+                <div class='col-sm-6 margin-bottom'>
+                    <div class='content-card fade-in' data-id='14'>
+                        <h2 class='card-head'>Cozy Obby</h2>
+                        <img class='project-thumb' src='images/CozyObby.png' />
+                    </div>
+                </div>
+                <div class='col-sm-6 margin-bottom'>
                     <div class='content-card fade-in' data-id='13'>
                         <h2 class='card-head'>Lightmap Swapper</h2>
                         <img class='project-thumb' src='images/LightmapSwapper.png' />
                     </div>
                 </div>
-                <div class='col-sm-4 margin-bottom'>
+                <div class='col-sm-6 margin-bottom'>
                     <div class='content-card fade-in' data-id='12'>
                         <h2 class='card-head'>Bunker Hallway</h2>
                         <img class='project-thumb' src='images/title.png' />
                     </div>
                 </div>
-                <div class='col-sm-4 margin-bottom'>
+                <div class='col-sm-6 margin-bottom'>
                     <div class='content-card fade-in' data-id='11'>
                         <h2 class='card-head'>Basketball Arcade</h2>
                         <img class='project-thumb' src='images/Arcade.png' />
